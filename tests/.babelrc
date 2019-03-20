@@ -1,0 +1,14 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": true
+        },
+        "modules": "auto"
+      }
+    ]
+  ],
+  "plugins": ["@babel/plugin-transform-runtime"]
+}
